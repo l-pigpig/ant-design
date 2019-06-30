@@ -19,33 +19,21 @@ import { Cascader } from 'antd';
 const options = [
   {
     code: 'zhejiang',
-    name: 'Zhejiang',
+    name: '技能组01',
     items: [
       {
         code: 'hangzhou',
-        name: 'Hangzhou',
-        items: [
-          {
-            code: 'xihu',
-            name: 'West Lake',
-          },
-        ],
-      },
+        name: '陈火城',
+              },
     ],
   },
   {
     code: 'jiangsu',
-    name: 'Jiangsu',
+    name: '技能组02',
     items: [
       {
         code: 'nanjing',
-        name: 'Nanjing',
-        items: [
-          {
-            code: 'zhonghuamen',
-            name: 'Zhong Hua Men',
-          },
-        ],
+        name: '王掌柜',
       },
     ],
   },
